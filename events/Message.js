@@ -64,7 +64,7 @@ client.on("messageCreate", async (message) => {
             .setColor('#3d35cc')
             .setDescription(`❌ - I need \`${command.BotPerms || []}\` permission(s) to execute this command!`)
 
-        if (!message.guild.me.permissions.has(["SEND_MESSAGES", "EMBED_LINKS"])) return message.member.send({ embeds: [momsgEmbed] })
+        if (!message.guild.me.permissions.has(["SEND_MESSAGES", "EMBED_LINKS"])) return message.member.send({ embeds: [momsgEmbed] }).catch(err => console.log(err))
 
         if (!message.member.permissions.has(command.UserPerms || [])) return message.reply({ embeds: [upEmbed] })
 
