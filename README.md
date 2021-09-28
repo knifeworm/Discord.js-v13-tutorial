@@ -1,5 +1,5 @@
-# Welcome to GitHub Desktop!
+# Welcome to the Git Repository of Discord.js v13 Tutorials by Drago!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Please use the menu to go through among various episodes of this series. If you're enjoying the series, please subscribe & also invite my own bot, Drago.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop
+Thank you!
