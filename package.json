@@ -1,0 +1,22 @@
+{
+  "name": "drago-test-v13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DragoLuca",
+  "license": "ISC",
+  "dependencies": {
+    "canvacord": "^5.2.3",
+    "discord-canvas": "^1.4.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "mongoose": "^6.0.7",
+    "quickmongo": "^3.0.2",
+    "util": "^0.12.4"
+  }
+}
